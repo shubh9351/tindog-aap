@@ -1,0 +1,187 @@
+
+
+#title
+{
+  background-color: #ff4c68;
+  padding-top: 30px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+/*navbar*/
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand
+{
+  margin-left: 15%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+font-weight: lighter;
+margin: 10px;
+}
+
+/*container data*/
+.container-fluid
+{
+padding: 3% 15% 7%;
+}
+.btn-image
+{
+  margin-bottom: 30px;
+}
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+h3
+{
+  font-style:normal;
+  font-weight: bold;
+}
+h2
+{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+p
+{
+  color: #8f8f8f;
+  margin: 0 25px;
+  font-size: 1.2rem;
+}
+.btn
+{
+  margin:0 20px;
+}
+.tittle-image
+{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*features*/
+#features
+{
+  text-align: center;
+  padding: 10% 15%;
+  margin-bottom: 40px;
+  background-color: #fff;
+  position: relative;
+}
+.icon
+{
+  color: #ef8172;
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+
+/*6 testimonial*/
+#testimonials
+{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item
+{
+  padding: 7% 15%;
+}
+.lady-image
+{
+  width: 15%;
+  border-radius: 100%;
+  margin: 30px;
+  padding-bottom: 30px;
+}
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-image
+{
+  width: 15%;
+  padding: 10px 15px 10px;
+  margin: 60px 20px ;
+}
+#pricing
+{
+  padding:100px;
+  text-align: center;
+}
+.card
+{
+  margin-top: 50px;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+/*responsive condition*/
+@media (max-width:1028px)
+{
+  #tittle
+  {
+    text-align: center;
+  }
+  .tittle-image
+  {
+    position: static;
+    transform: rotate(0deg);
+    padding-top: 50px;
+  }
+}
+
+/*cta section*/
+#cta
+{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.head
+{
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+/*footer section*/
+#footer
+{
+  padding: 7% 15%;
+  background-color: #fff;
+  color: grey;
+  text-align: center;
+  height: 150px;
+
+}
+.social
+{
+  margin: 10px 10px ;
+}
+.icon
+{
+  margin: 10px 10px ;
+}
